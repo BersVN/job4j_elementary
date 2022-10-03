@@ -6,4 +6,5 @@ public class Multiple {
             System.out.println("1*" + i + "=" + i);
         }
     }
+
 }
