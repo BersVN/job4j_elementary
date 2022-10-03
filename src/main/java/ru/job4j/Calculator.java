@@ -1,23 +1,12 @@
 package ru.job4j;
 
 public class Calculator {
+    public static int func1(int x) {
+        return x * x + 1;
+    }
+
     public static void main(String[] args) {
-        int one = 1;
-        int two = 2;
-        int onePlusTwo = one + two;
-
-        int six = 6;
-        int four = 4;
-        int five  = 5;
-        int sixDivTwo, fiveMinusTwo, fourTimeTwo;
-
-        sixDivTwo = six / two;
-        fiveMinusTwo = five - two;
-        fourTimeTwo = four * two;
-        System.out.println(onePlusTwo);
-
-        System.out.println("sixDivTwo=" + sixDivTwo);
-        System.out.println("fiveMinusTwo=" + fiveMinusTwo);
-        System.out.println("fourTimeTwo=" + fourTimeTwo);
+        int result3 = Calculator.func1(100);
+        System.out.println("result3 = " + result3);
     }
 }
