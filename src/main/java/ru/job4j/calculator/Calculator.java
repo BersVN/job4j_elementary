@@ -15,5 +15,6 @@ public class Calculator {
         System.out.println("sixDivTwo=" + sixDivTwo);
         System.out.println("fiveMinusTwo=" + fiveMinusTwo);
         System.out.println("fourTimeTwo=" + fourTimeTwo);
+        System.out.printf("%s%s,I am %d years old", "boy", "Hello", 12);
     }
 }
